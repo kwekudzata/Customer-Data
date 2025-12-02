@@ -1,0 +1,26 @@
+Data Cleaning Tasks:
+Are there any missing or duplicate values?
+Are any numeric columns outliers (e.g., extremely high amount_spent)?
+Are all countries and genders spelled consistently?
+Convert joined_year into a proper date or customer age (in years) on the platform.
+
+Customer Behavior:
+What is the distribution of customer ages?
+Which country has the highest number of customers?
+Which gender spends the most on average?
+What is the relationship between monthly visits and amount spent?
+
+Time-Based Insights:
+How many customers joined each year?
+Are newer customers spending more or less than older ones?
+
+Segmentation:
+Can you segment customers into groups (e.g., low spenders vs high spenders)?
+How does country affect visit frequency and spending?
+
+Histogram of age
+Bar chart of gender counts
+Bar chart of country distribution
+Scatter plot: monthly_visits vs amount_spent
+Box plot: amount_spent by gender
+Line or bar chart: customer signups by joined_year
