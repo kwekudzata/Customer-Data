@@ -31,34 +31,38 @@ Matplotlib <br>
 Jupyter Notebook <br>
 
 
-## 🧹 1. Data Cleaning
-✔ Missing & Duplicate Checks
+## 🧹 Data Cleaning
+ Missing & Duplicate Checks
 Used .isnull().sum() to scan for missing values
 Used .duplicated().sum() to detect duplicates
 Removed or handled issues where necessary
 
-✔ Outlier Detection
+ Outlier Detection
 Identified extreme values in amount_spent, age, and monthly_visits
 Used boxplots & Z-scores to highlight unusual data points
 
-✔ Categorical Consistency
+ Categorical Consistency
 Ensured standardization of:
 gender (Male/Female/Other)
 country (from a fixed list: Ghana, Nigeria, Kenya, etc.)
 
-✔ Date Conversion
+ Date Conversion
 Converted joined_year into a proper date and computed:
 Customer’s account age
 Year-over-year signup trends
 
 
-## 📊 2. Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 Key questions explored:
 What is the age distribution of customers?
+
 Which country has the highest number of customers?
+
 Which gender spends the most on average?
+
 Does higher visit frequency mean higher spending?
+
 What is the signup trend over the years?
 
 Visualizations include:
@@ -67,7 +71,7 @@ Bar charts
 Line plots
 Scatter plots
 
-## 🧩 3. Customer Segmentation
+## 🧩 Customer Segmentation
 
 Segmentation used percentile-based rules:
 
